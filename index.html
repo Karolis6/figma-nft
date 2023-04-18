@@ -4,7 +4,454 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./figma.css" />
+    <title>NFT Page Light</title>
   </head>
-  <body></body>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navigation-wrap">
+          <div class="navigation-logo">
+            <img src="./images/header-logo.svg" alt="" />
+          </div>
+          <div class="navigation-list">
+            <ul>
+              <li class="navigation-item dark2"><a href="#">Features</a></li>
+              <li class="navigation-item dark2"><a href="#">About</a></li>
+              <li class="navigation-item dark2"><a href="#">Launch</a></li>
+              <li class="navigation-signup pink">
+                <a class="header-button" href="#">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navigation-burger">
+            <img src="./images/burger.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- <section class="hero-page ">
+            <div class="container background-image-1">
+                <div class="hero-page-wrapper">
+                    <div class="hero-content">
+                        <div class="launch-date pink"><span class="launch-date-style">LAUNCHING SOON</span></div>
+                        <div class="page-title dark1">
+                            <h1 class="page-title-style-h1">An NFT like no other</h1>
+                        </div>
+                        <div class="page-text dark2">
+                            <p class="page-text-style">Don’t miss out on the release of our new NFT. Sign up below to
+                                receive updates when we go
+                                live.</p>
+                        </div>
+                        <div class="main-button"><a class="main-button-style" href="#">Sign Up</a></div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="hero-image-content"><img src="./images/background-pictures/hero-test.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+      <section class="hero-page-top">
+        <div class="container">
+          <div class="hero-page-wrapper">
+            <div class="left-side">
+              <div class="launch-date pink">
+                <span class="launch-date-style">LAUNCHING SOON</span>
+              </div>
+              <div class="page-title dark1">
+                <h1 class="page-title-style-h1">An NFT like no other</h1>
+              </div>
+              <div class="page-text dark2">
+                <p class="page-text-style">
+                  Don’t miss out on the release of our new NFT. Sign up below to
+                  receive updates when we go live.
+                </p>
+              </div>
+              <div class="main-button">
+                <a class="main-button-style" href="#">Sign Up</a>
+              </div>
+            </div>
+            <div class="right-side monster-top">
+              <img class="monster-img" src="./images/hero-test.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="call-to-action-page">
+        <div class="container background-color-fill">
+          <div class="CTA-wrapper">
+            <div class="section-title dark1">
+              <span class="section-title-style">Free NFT for early birds</span>
+            </div>
+            <div class="section-text dark1">
+              <p class="section-text-style">
+                Sign up today and you’ll get a free NFT when we launch
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="partner-list-page">
+        <div class="container">
+          <div class="partner-list-wrapper">
+            <ul>
+              <li class="partner">
+                <div class="partner-logo dark4">
+                  <img
+                    class="partner-logo-style"
+                    src="./images/vector-boomerang.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="partner-name dark4">
+                  <span class="partner-name-style partner-name-small"
+                    >Boom<span class="hide-mobile-part">erang</span></span
+                  >
+                </div>
+              </li>
+              <li class="partner">
+                <div class="partner-logo dark4">
+                  <img
+                    class="partner-logo-style"
+                    src="./images/vector-blimp.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="partner-name dark4">
+                  <span class="partner-name-style partner-name-big">Blimp</span>
+                </div>
+              </li>
+              <li class="partner">
+                <div class="partner-logo dark4">
+                  <img
+                    class="partner-logo-style"
+                    src="./images/vector-qrco.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="partner-name dark4">
+                  <span class="partner-name-style partner-name-big">qrco</span>
+                </div>
+              </li>
+              <li class="partner hide-mobile-part">
+                <div class="partner-logo dark4">
+                  <img
+                    class="partner-logo-style"
+                    src="./images/vector-opendoor.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="partner-name dark4">
+                  <span class="partner-name-style">OpenDoor</span>
+                </div>
+              </li>
+              <li class="partner">
+                <div class="partner-logo dark4">
+                  <img
+                    class="partner-logo-style"
+                    src="./images/vector-droplet.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="partner-name dark4">
+                  <span class="partner-name-style partner-name-small"
+                    >Droplet</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-list-page">
+        <div class="container">
+          <div class="product-list-wrapper">
+            <div class="section-title-wrapper">
+              <div class="section-title dark1">
+                <span class="section-title-style">LE Super Rare Auction</span>
+              </div>
+              <div class="section-text dark2">
+                <p class="section-text-style">
+                  We have released four limited edition NFTs early which can be
+                  bid on via <span class="via-link">OpenSea.</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="product-card-list">
+              <div class="product-card">
+                <div class="product-picture">
+                  <img src="./images/purple-man-card.svg" alt="" />
+                </div>
+
+                <div class="product-description-wrap">
+                  <div class="product-description-name">
+                    <div class="product-series orange product-series-padding">
+                      <span class="product-series-style">GLOOP SERIES</span>
+                    </div>
+                    <div class="product-name dark1 product-series-padding">
+                      <span class="product-name-style">Purple Man</span>
+                    </div>
+                    <div class="product-number dark3 product-series-padding">
+                      <span class="product-number-style">#12983</span>
+                    </div>
+                  </div>
+                  <div class="product-description-cost">
+                    <div class="product-bid dark3 product-series-padding">
+                      <span class="prduct-bid-style">TOP BID</span>
+                    </div>
+                    <div class="product-cost dark1 product-series-padding">
+                      <span class="product-cost-style">2.99 ETH</span>
+                    </div>
+                    <div class="product-timer dark3 product-series-padding">
+                      <span class="product-timer-style">1 day left</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-picture">
+                  <img src="./images/beige-woman-card.svg" alt="" />
+                </div>
+
+                <div class="product-description-wrap">
+                  <div class="product-description-name">
+                    <div class="product-series orange product-series-padding">
+                      <span class="product-series-style">GLOOP SERIES</span>
+                    </div>
+                    <div class="product-name dark1 product-series-padding">
+                      <span class="product-name-style">Beige</span>
+                    </div>
+                    <div class="product-number dark3 product-series-padding">
+                      <span class="product-number-style">#12983</span>
+                    </div>
+                  </div>
+                  <div class="product-description-cost">
+                    <div class="product-bid dark3 product-series-padding">
+                      <span class="prduct-bid-style">TOP BID</span>
+                    </div>
+                    <div class="product-cost dark1 product-series-padding">
+                      <span class="product-cost-style">2.99 ETH</span>
+                    </div>
+                    <div class="product-timer dark3 product-series-padding">
+                      <span class="product-timer-style">1 day left</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-picture">
+                  <img src="./images/red-man-card.svg" alt="" />
+                </div>
+
+                <div class="product-description-wrap">
+                  <div class="product-description-name">
+                    <div class="product-series orange product-series-padding">
+                      <span class="product-series-style">GLOOP SERIES</span>
+                    </div>
+                    <div class="product-name dark1 product-series-padding">
+                      <span class="product-name-style">Red Man</span>
+                    </div>
+                    <div class="product-number dark3 product-series-padding">
+                      <span class="product-number-style">#12983</span>
+                    </div>
+                  </div>
+                  <div class="product-description-cost">
+                    <div class="product-bid dark3 product-series-padding">
+                      <span class="prduct-bid-style">TOP BID</span>
+                    </div>
+                    <div class="product-cost dark1 product-series-padding">
+                      <span class="product-cost-style">2.99 ETH</span>
+                    </div>
+                    <div class="product-timer dark3 product-series-padding">
+                      <span class="product-timer-style">1 day left</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-picture">
+                  <img src="./images/green-woman-card.svg" alt="" />
+                </div>
+
+                <div class="product-description-wrap">
+                  <div class="product-description-name">
+                    <div class="product-series orange product-series-padding">
+                      <span class="product-series-style">GLOOP SERIES</span>
+                    </div>
+                    <div class="product-name dark1 product-series-padding">
+                      <span class="product-name-style">Green</span>
+                    </div>
+                    <div class="product-number dark3 product-series-padding">
+                      <span class="product-number-style">#12983</span>
+                    </div>
+                  </div>
+                  <div class="product-description-cost">
+                    <div class="product-bid dark3 product-series-padding">
+                      <span class="prduct-bid-style">TOP BID</span>
+                    </div>
+                    <div class="product-cost dark1 product-series-padding">
+                      <span class="product-cost-style">2.99 ETH</span>
+                    </div>
+                    <div class="product-timer dark3 product-series-padding">
+                      <span class="product-timer-style">1 day left</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero-page">
+        <div class="container">
+          <div class="hero-page-wrapper">
+            <div class="left-side">
+              <div class="launch-date pink">
+                <span class="launch-date-style">LAUNCHING SOON</span>
+              </div>
+              <div class="page-title dark1">
+                <h1 class="page-title-style-h1">An NFT like no other</h1>
+              </div>
+              <div class="page-text dark2">
+                <p class="page-text-style">
+                  Don’t miss out on the release of our new NFT. Sign up below to
+                  receive updates when we go live.
+                </p>
+              </div>
+              <div class="main-button">
+                <a class="main-button-style" href="#">Sign Up</a>
+              </div>
+            </div>
+            <div class="right-side">
+              <img src="./images/bottom-hero-image.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="container">
+          <div class="footer-title">
+            <div class="navigation-logo">
+              <img src="./images/header-logo.svg" alt="" />
+            </div>
+            <div class="footer-description dark2">
+              <span>Exclusive NFT Collection</span>
+            </div>
+            <div class="footer-social-media dark4">
+              <ul>
+                <li class="social-icon">
+                  <img src="./images/social-facebook.svg" alt="" />
+                </li>
+                <li class="social-icon">
+                  <img src="./images/social-twitter.svg" alt="" />
+                </li>
+                <li class="social-icon">
+                  <img src="./images/social-instagram.svg" alt="" />
+                </li>
+                <li class="social-icon">
+                  <img src="./images/social-tiktok.svg" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-list">
+            <div class="footer-list-wrap">
+              <div class="footer-list-title dark2">
+                <span class="footer-list-title-style">ABOUT</span>
+              </div>
+              <div class="footer-list-items">
+                <ul>
+                  <li class="footer-list-item">
+                    <a class="footer-list-item-style dark2" href="#">About</a>
+                  </li>
+                  <li class="footer-list-item">
+                    <a class="footer-list-item-style dark2" href="#">Terms</a>
+                  </li>
+                  <li class="footer-list-item">
+                    <a class="footer-list-item-style dark2" href="#">Legal</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-list-wrap">
+              <div class="footer-list-title dark2">
+                <span class="footer-list-title-style dark2">NFT</span>
+              </div>
+              <div class="footer-list-items">
+                <ul>
+                  <li class="footer-list-item dark2">
+                    <a class="footer-list-item-style dark2" href="#">OpenSea</a>
+                  </li>
+                  <li class="footer-list-item dark2">
+                    <a class="footer-list-item-style dark2" href="#">Maker</a>
+                  </li>
+                  <li class="footer-list-item dark2">
+                    <a class="footer-list-item-style dark2" href="#">Learn</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-list-wrap">
+              <div class="footer-list-title dark2">
+                <span class="footer-list-title-style">CONTACT</span>
+              </div>
+              <div class="footer-list-items">
+                <ul>
+                  <li class="footer-list-item dark2">
+                    <a class="footer-list-item-style dark2" href="#">Press</a>
+                  </li>
+                  <li class="footer-list-item dark2">
+                    <a class="footer-list-item-style dark2" href="#">Support</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-list-wrap">
+              <div class="footer-list-title dark2">
+                <span class="footer-list-title-style">SOCIAL</span>
+              </div>
+              <div class="footer-list-items">
+                <ul>
+                  <li class="footer-list-item">
+                    <a class="footer-list-item-style dark2" href="#">Twitter</a>
+                  </li>
+                  <li class="footer-list-item dark2">
+                    <a class="footer-list-item-style dark2" href="#"
+                      >Instagram</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-legal">
+            <div class="footer-copyright dark4">
+              <span class="footer-copyright-style"
+                >© Copyright 2022 NFTlanding</span
+              >
+            </div>
+            <div class="footer-copyright dark4 hide-mobile-part">
+              <span>Launching August 2022</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
